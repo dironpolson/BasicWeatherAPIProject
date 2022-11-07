@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "Blatant";
+    src: url(./Blatant.otf);
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Questrial', sans-serif; */
+    font-family: "Blatant";
+    /* font-family: "Hanson", sans-serif ; */
+    /* font-family: 'Red Hat Display', sans-serif; */
+}
+
+body{
+    background-color: #131313;
+}
+
+.BGs{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    color: beige ;
+}
+
+
+.topSection{
+    position: relative;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+}
+
+
+.topHeadSection{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.topHeadSection form{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topHeadSection form input{
+    margin: 1rem 0;
+    height: 30px;
+    width: 50%;
+    border: 1px solid #cccccc ;
+    border-radius: .3rem;
+    background: #cccccca4;
+    color: beige ;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.topHeadSection form button{
+    height: 30px;
+    width: 20%;
+    border: 1px solid #cccccc ;
+    border-radius: 2rem;
+}
+
+
+.midSection{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.midSection .weatherCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    border-radius: 1rem;
+    background-color: #cccccc28;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(9.2px);
+}
+
+
+
+.footerSection{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSection p a{
+    color: beige;
+}
